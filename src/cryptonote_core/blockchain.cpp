@@ -107,7 +107,7 @@ static const struct {
   // version 6 starts from block 1400000, which is on or around the 16th of September, 2017. Fork time finalised on 2017-08-18.
   //{ 6, 1400000, 0, 1503046577 },
 };
-static const uint64_t mainnet_hard_fork_version_1_till = 1009826;
+static const uint64_t mainnet_hard_fork_version_1_till = 0;
 
 static const struct {
   uint8_t version;
@@ -129,7 +129,7 @@ static const struct {
   //{ 6, 971400, 0, 1501709789 },
  // { 7, 1057028, 0, 1512211236 },
 };
-static const uint64_t testnet_hard_fork_version_1_till = 624633;
+static const uint64_t testnet_hard_fork_version_1_till = 0;
 
 //------------------------------------------------------------------
 Blockchain::Blockchain(tx_memory_pool& tx_pool) :
