@@ -42,7 +42,7 @@ namespace bf = boost::filesystem;
 #undef MONERO_DEFAULT_LOG_CATEGORY
 #define MONERO_DEFAULT_LOG_CATEGORY "net.dns"
 
-//#define DEFAULT_DNS_PUBLIC_ADDR "8.8.4.4"
+#define DEFAULT_DNS_PUBLIC_ADDR "0.0.0.0"
 
 static boost::mutex instance_lock;
 
